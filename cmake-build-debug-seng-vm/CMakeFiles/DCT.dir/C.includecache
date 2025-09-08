@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.Ftjp5poh6g/DCT/dct.h
+stdint.h
+-
+
+/tmp/tmp.Ftjp5poh6g/DCT/main.c
+dct.h
+/tmp/tmp.Ftjp5poh6g/DCT/dct.h
+stdio.h
+-
+time.h
+-
+string.h
+-
+
